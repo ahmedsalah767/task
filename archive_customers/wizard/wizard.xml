@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+<data>
+
+<record id="customer_archive_form" model="ir.ui.view">
+        <field name="name">customer.archive.form</field>
+        <field name="model">customer.archive</field>
+        <field name="arch" type="xml">
+            <form string="achive" >
+            
+<footer>          
+<button string="archive" name="customer_archive" type="object"/>
+<button string="cancel" special="cancel"/>
+
+</footer>
+</form>
+</field>
+</record>
+</data>
+
+
+</odoo>
